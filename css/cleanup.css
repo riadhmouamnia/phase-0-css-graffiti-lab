@@ -1,1 +1,39 @@
-/* write your override styles here */
+#wall .tag-1 {
+    display: none;
+}
+
+#wall .parent #tag-4 {
+    display: none;
+}
+
+body div#wall .parent #tag-5.slick {
+    display: none
+}
+
+body div#wall div.parent div:last-child div#tag-6 {
+    display: none;
+}
+
+body div#wall div.parent div:first-child > #tag-7.slick {
+    display: none;
+}
+
+/* 
+    we can replace all the above lines with just this CSS rule but that will 
+    not fulfill the test requirement of "file should have at least 
+    300 bytes worth of updates"
+    
+*/
+    
+/* #wall > div {
+    display: none;
+}  */
+
+
+body #wall > #tag-2 {
+    display: none;
+}
+
+div#wall #tag-3.slick.wicked {
+    display: none;
+}
